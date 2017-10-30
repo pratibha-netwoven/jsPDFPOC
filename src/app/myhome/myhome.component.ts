@@ -1,4 +1,4 @@
-import { Component, ViewChild, ElementRef } from '@angular/core';
+import { Component, ViewChild, ElementRef, Input } from '@angular/core';
 
 import * as jsPDF from 'jspdf';
 declare let jsPDF;
@@ -9,8 +9,8 @@ declare var html2canvas: any;
   styleUrls: ['./myhome.component.css']
 })
 export class MyhomeComponent {
-  @ViewChild('test') el: ElementRef;
-  
+ 
+   @ViewChild('test') el: ElementRef;
   
       constructor() {
       }
